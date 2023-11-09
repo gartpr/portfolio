@@ -50,7 +50,7 @@ const Post1 = () => {
                             and get in touch through the contact form.
                         </p>
 
-                        <a target="_blank" href="https://github.com/gartpr/gartpr.github.io" rel="noreferrer">
+                        <a target="_blank" href="https://github.com/gartpr/portfolio" rel="noreferrer">
                             View the Project on Github</a>
 
                         <br />
