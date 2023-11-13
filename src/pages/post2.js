@@ -59,11 +59,9 @@ const Post2 = () => {
                         </ul>
 
                         <p>
-                            This project is an exciting exploration of the potential of reinforcement learning in 
-                            the field of autonomous vehicles. To get hands-on with the code and detailed step-by-step 
-                            instructions, please refer to the Jupyter Notebook, where you can run, experiment, and 
-                            learn more about RL in the context of car racing. Enjoy the adventure of experimenting 
-                            with RL and car racing!
+                            To get hands-on with the code and detailed step-by-step instructions, please refer 
+                            to the Jupyter Notebook, where you can run, experiment, and learn more about RL in 
+                            the context of car racing. 
                         </p>
 
                         <a target="_blank" href="https://github.com/gartpr/Simple-Reinforcement-Learning-Model-Car-Simulation" rel="noreferrer">

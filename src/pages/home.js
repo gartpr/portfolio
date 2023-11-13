@@ -6,14 +6,14 @@ import Projects from '../components/projects';
 import Contact from '../components/contact';
 
 function Home() {
-  return (
-    <div className="Home">
-      <Intro />
-      <About />
-      <Projects />
-      <Contact />
-    </div>
-  );
+    return (
+        <div className="Home">
+            <Intro />
+            <About />
+            <Projects />
+            <Contact />
+        </div>
+    );
 }
 
 export default Home;

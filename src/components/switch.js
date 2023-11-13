@@ -15,11 +15,7 @@ const ThemeSwitch = () => {
     }, []);
 
     const setTheme = (themeName) => {
-        if (themeName === 'dark') {
-            document.getElementById("theme-style").href="dark.css";
-        } else {
-            document.getElementById("theme-style").href="light.css";
-        }
+        document.getElementById("theme-style").href = `${process.env.PUBLIC_URL}/${themeName}.css`
     };
 
     const toggleDarkMode = () => {

@@ -7,7 +7,7 @@ const scrollToContact = () => {
 
         if (targetElement) {
             const yOffset = targetElement.getBoundingClientRect().top;
-            const offset = 80; // Adjust the offset as needed
+            const offset = 80;
 
             window.scrollTo({
                 top: yOffset + window.pageYOffset - offset,

@@ -11,8 +11,8 @@ const About = () => {
                     <p>I'm a passionate developer who thrives on building meaningful
                     projects and learning new things.</p>
 
-                    <p>While I keep busy working various jobs and completing independent 
-                    tasks, I hope that these endeavers become a launchpad for discovering
+                    <p>I keep busy working various jobs and completing independent 
+                    tasks and I hope that these endeavers become a launchpad for discovering
                     exciting career opportunites.</p>
 
                     <hr></hr>
