@@ -41,7 +41,7 @@ const About = () => {
                 </div>
 
                 <div className="social-links">
-                    <img id="social_img" src="images/redwood_stream.jpg" alt="Social Links"/>
+                    <img id="social_img" src={process.env.PUBLIC_URL + '/images/redwood_stream.jpg'} alt="Social Links"/>
                     <h3>Find me on LinkedIn & Instagram</h3>
                     <a target="_blank" href="https://www.linkedin.com/in/garrettgorczyca/" rel="noreferrer">LinkedIn: @garrettgorczyca</a>
                     <br />

@@ -4,43 +4,43 @@ import { Link } from 'react-router-dom';
 const Post3 = () => {
     const photos = [
         {
-            src: 'images/redwood_stream.jpg',
+            src: '/images/redwood_stream.jpg',
             alt: 'Redwood Stream',
             description: 'Taken in the redwoods of Big Sur. My favorite picture.',
             size: 'horizontal',
         },
         {
-            src: 'images/shack_roof.jpg',
+            src: '/images/shack_roof.jpg',
             alt: 'Shack Roof',
             description: 'Taken in Fort Ord Monterey using a drone.',
             size: 'horizontal',
         },
         {
-            src: 'images/shack_side.jpg',
+            src: '/images/shack_side.jpg',
             alt: 'Shack Side',
             description: 'Also taken in Fort Ord.',
             size: 'horizontal',
         },
         {
-            src: 'images/grassy_fields.jpg',
+            src: '/images/grassy_fields.jpg',
             alt: 'Grassy Fields',
             description: 'Mood. Taken in the hills above my childhood home.',
             size: 'horizontal',
         },
         {
-            src: 'images/bikeman.jpg',
+            src: '/images/bikeman.jpg',
             alt: 'Bikeman',
             description: 'One of my favorite hobbies.',
             size: 'vertical',
         },
         {
-            src: 'images/redwood_sun.jpg',
+            src: '/images/redwood_sun.jpg',
             alt: 'Redwood Sun',
             description: 'Another cool spot in Big Sur',
             size: 'horizontal',
         },
         {
-            src: 'images/beach_distance.jpg',
+            src: '/images/beach_distance.jpg',
             alt: 'Beach Distance',
             description: 'Mood at the time.',
             size: 'horizontal',
@@ -70,7 +70,7 @@ const Post3 = () => {
                         <div className="photo-gallery">
                             {photos.map((photo, index) => (
                                 <div className={`photo-item ${photo.size}`} key={index}>
-                                    <img src={photo.src} alt={photo.alt} />
+                                    <img src={process.env.PUBLIC_URL + photo.src} alt={photo.alt} />
                                     <p>{photo.description}</p>
                                 </div>
                             ))}

@@ -1,6 +1,5 @@
-// App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 import Home from './pages/home';
@@ -15,10 +14,10 @@ function App() {
       <div className="App">
         <Router>
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/post1" element={<Post1 />} />
-            <Route path="/post2" element={<Post2 />} />
-            <Route path="/post3" element={<Post3 />} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/post1" element={<Post1 />} />
+            <Route exact path="/post2" element={<Post2 />} />
+            <Route exact path="/post3" element={<Post3 />} />
           </Routes>
         </Router>
       </div>

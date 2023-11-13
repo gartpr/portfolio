@@ -10,7 +10,7 @@ const Projects = () => {
             <div className="post-wrapper">
                 <div>
                     <div className="post">
-                        <img className="thumbnail" src="images/reactapps.png" alt="Project"/>
+                        <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/reactapps.png'} alt="Project"/>
                         <div className="post-preview">
                             <h6 className="post-title">This Website</h6>
                             <p className="post-intro">View the code that makes this website.</p>
@@ -23,7 +23,7 @@ const Projects = () => {
 
                 <div>
                     <div className="post">
-                        <img className="thumbnail" src="images/reinforcement.jpg" alt="Project"/>
+                        <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/reinforcement.jpg'} alt="Project"/>
                         <div className="post-preview">
                             <h6 className="post-title">Reinforcement Learning</h6>
                             <p className="post-intro">Learn how to make a basic RL agent.</p>
@@ -36,7 +36,7 @@ const Projects = () => {
 
                 <div>
                     <div className="post">
-                        <img className="thumbnail" src="images/shack_roof.jpg" alt="Project"/>
+                        <img className="thumbnail" src={process.env.PUBLIC_URL + '/images/shack_roof.jpg'} alt="Project"/>
                         <div className="post-preview">
                             <h6 className="post-title">Photography</h6>
                             <p className="post-intro">My favorite pictures that I have taken.</p>

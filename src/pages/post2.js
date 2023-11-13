@@ -18,10 +18,6 @@ const Post2 = () => {
 
                     <div className="main-container">
 
-                        <div className="img-container">
-                            <img src="images/racing.jpg" alt="" />
-                        </div>
-
                         <h3>Reinforcement Learning Car Racing Project</h3>
 
                         <p>

@@ -35,7 +35,7 @@ const Intro = () => {
                     </div>
 
                     <div className="left-column">
-                        <img id="profile_pic" src="images/perofile.jpg" alt="Profile" />
+                        <img  id="profile_pic" src={process.env.PUBLIC_URL + '/images/perofile.jpg'} alt="Example" />
                         <h5 style={{ textAlign: "center", lineHeight: 0 }}>Enable Darkmode?</h5>
 
                         <ThemeSwitch />
